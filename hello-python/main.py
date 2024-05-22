@@ -4,6 +4,10 @@ from ldclient import Context
 from ldclient.config import Config
 from threading import Lock, Event
 
+# directions
+# mkdir hello-python && cd hello-python
+# echo "launchdarkly-server-sdk==9.4.0" >> requirements.txt && pip install -r requirements.txt
+
 
 # Set sdk_key to your LaunchDarkly SDK key.
 sdk_key = os.getenv("LAUNCHDARKLY_SDK_KEY")
